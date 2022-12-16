@@ -15,10 +15,10 @@ call plug#begin()
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
     " Completion / linters / formatters
-    Plug 'neoclide/coc.nvim',  {'branch': 'master', 'do': 'yarn install'}
     Plug 'plasticboy/vim-markdown'
     " color scheme
     Plug 'morhetz/gruvbox'
+    Plug 'neoclide/coc.nvim', { 'branch': 'release'  }
 call plug#end()
 source $HOME/.config/nvim/general/mappings.vim
 colorscheme gruvbox
