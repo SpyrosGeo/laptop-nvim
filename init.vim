@@ -45,7 +45,6 @@ filetype plugin indent on
 syntax on
 
 "testing.
->>>>>>> testing
 " Tabs size
 set expandtab
 set shiftwidth=2
