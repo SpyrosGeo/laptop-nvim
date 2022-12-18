@@ -19,6 +19,7 @@ call plug#begin()
     " color scheme
     Plug 'morhetz/gruvbox'
     Plug 'neoclide/coc.nvim', { 'branch': 'release'  }
+    Plug 'numToStr/Comment.nvim'
 call plug#end()
 source $HOME/.config/nvim/general/mappings.vim
 colorscheme gruvbox
@@ -45,7 +46,12 @@ set wildmenu
 filetype plugin indent on
 syntax on
 
-"testing.
+"comment
+lua require('Comment').setup()
+"
+"
+"
+"
 " Tabs size
 set expandtab
 set shiftwidth=2

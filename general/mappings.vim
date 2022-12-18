@@ -1,3 +1,5 @@
+let mapleader = "\<Space>"
+nnoremap <Leader>a :echo "test"<CR>
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
@@ -12,9 +14,9 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 "inoremap <c-u> <ESC>viwUi
 "nnoremap <c-u> viwU<Esc>
 "control+D in vscode
-vnoremap <C-r> "hy:%s/<C-r>h//gc<left><left><left>
+vnoremap <C-d> "hy:%s/<C-r>h//gc<left><left><left>
 " TAB in general mode will move to text buffer
-"nnoremap <TAB> :bnext<CR>
+nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 "nnoremap <S-TAB> :bprevious<CR>
 
