@@ -43,7 +43,9 @@ set ttimeoutlen=0
 set wildmenu
 filetype plugin indent on
 syntax on
-" testing11111
+
+"testing.
+>>>>>>> testing
 " Tabs size
 set expandtab
 set shiftwidth=2
