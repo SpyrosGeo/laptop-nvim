@@ -9,7 +9,7 @@
   * comment fuctionality is set to gcc on Normal mode and gc on Visual mode
 # CoC Configuration
 
-  * CoCInstall coc-tsserver
+  * CocInstall coc-tsserver
 # FONTS
 If the icons don't appear correctly on the explorer 
 ## INSTALL THE FONTS ON THE MACHINE
