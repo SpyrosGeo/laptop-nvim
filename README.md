@@ -10,5 +10,7 @@
 # CoC Configuration
 
   * CoCInstall coc-tsserver
-
+# FONTS
+If the icons don't appear correctly on the explorer 
+## INSTALL THE FONTS ON THE MACHINE
 
