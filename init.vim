@@ -25,7 +25,8 @@ colorscheme gruvbox
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
 let NERDTreeShowHidden=1
-"searchIII
+"search
+"testingggggggggg
 let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 """"""""""
 let g:ctrlsf_backend = 'ack'
