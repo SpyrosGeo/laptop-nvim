@@ -1,14 +1,14 @@
 let mapleader = "\<Space>"
 nnoremap <Leader>a :echo "test"<CR>
+nnoremap <Leader>w :bd <CR>
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
-
 " Use alt + hjkl to resize windows
 nnoremap <M-j>    :resize -2<CR>
 nnoremap <M-k>    :resize +2<CR>
 nnoremap <M-;>    :vertical resize -2<CR>
 nnoremap <M-h>    :vertical resize +2<CR>
-
+nnoremap <leader>ff <cmd>Telescope live_grep<cr>
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 " Easy CAPS
 "inoremap <c-u> <ESC>viwUi
@@ -24,6 +24,7 @@ nnoremap <TAB> :bnext<CR>
 nnoremap <C-s> :w<CR>
 "Alternative way to undo
 nnoremap <C-a> :u<CR>
+nnoremap <Leader>z :u <CR>
 " Alternate way to quit
 nnoremap <C-Q> :wq!<CR>
 " Use control-c instead of escape

@@ -3,6 +3,10 @@ call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'ryanoasis/vim-devicons'
     Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'nvim-lua/plenary.nvim' 
+    "fuzzy finder
+    Plug 'nvim-telescope/telescope.nvim',{'tag':'0.1.0'} 
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     " Utilities
     Plug 'sheerun/vim-polyglot'
     Plug 'jiangmiao/auto-pairs'
