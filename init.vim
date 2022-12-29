@@ -3,6 +3,7 @@ call plug#begin()
     Plug 'vim-airline/vim-airline'
     Plug 'ryanoasis/vim-devicons'
     Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'sbdchd/neoformat'
     Plug 'nvim-lua/plenary.nvim' 
     "fuzzy finder
     Plug 'nvim-telescope/telescope.nvim',{'tag':'0.1.0'} 
@@ -22,12 +23,16 @@ call plug#begin()
     Plug 'plasticboy/vim-markdown'
     " color scheme
     Plug 'morhetz/gruvbox'
+    Plug 'rockerBOO/boo-colorscheme-nvim'
     Plug 'neoclide/coc.nvim', { 'branch': 'release'  }
     Plug 'numToStr/Comment.nvim'
 call plug#end()
 source $HOME/.config/nvim/general/mappings.vim
-colorscheme gruvbox
+"colorscheme gruvbox
+colorscheme boo
+let g:boo_colorscheme_theme = 'sunset_cloud'
 let g:airline_powerline_fonts = 1
+let g:neoformat_try_node_exe = 1
 let g:airline#extensions#tabline#enabled = 1
 let NERDTreeShowHidden=1
 "search
