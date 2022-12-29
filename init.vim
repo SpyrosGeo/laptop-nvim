@@ -22,15 +22,21 @@ call plug#begin()
     " Completion / linters / formatters
     Plug 'plasticboy/vim-markdown'
     " color scheme
+    Plug 'jacoborus/tender.vim'
     Plug 'morhetz/gruvbox'
     Plug 'rockerBOO/boo-colorscheme-nvim'
     Plug 'neoclide/coc.nvim', { 'branch': 'release'  }
     Plug 'numToStr/Comment.nvim'
 call plug#end()
 source $HOME/.config/nvim/general/mappings.vim
+if (has("termguicolors"))
+ set termguicolors
+endif
+syntax enable
+colorscheme tender
 "colorscheme gruvbox
-colorscheme boo
-let g:boo_colorscheme_theme = 'sunset_cloud'
+"colorscheme boo
+"let g:boo_colorscheme_theme = 'sunset_cloud'
 let g:airline_powerline_fonts = 1
 let g:neoformat_try_node_exe = 1
 let g:airline#extensions#tabline#enabled = 1
